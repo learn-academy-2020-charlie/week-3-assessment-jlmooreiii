@@ -89,7 +89,7 @@ const getMiddleChar = (string) => {
         if (string.length == 0) {
             return "";
         } else if (string.length == 1){
-            return 1
+            return string;
           } else {
             //Get the length of the argument string
             let stringLength = string.length;
