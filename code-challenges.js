@@ -141,9 +141,9 @@ class Sphere {
         this.units = units;
     }
     //Give the class a method that canluates its volume and returns it
-    getVolume() {
-        let volume = 4*(3.1415)*(this.radius)*(this.radius);
-        return ` ${volume} ${this.units} cubed`;
+    getArea() {
+        let area = 4*(3.1415)*(this.radius)*(this.radius);
+        return ` ${area} ${this.units} cubed`;
     }
 }
 //Test to make sure the class and its components work
@@ -162,9 +162,9 @@ console.log("\n");
 console.log("mySphere3:"); 
 console.log(mySphere3); 
 console.log("\n");
-console.log(`The expected volume of myShere1 is 201.056 units cubed. The output volume is ${mySphere1.getVolume()}.`);
-console.log(`The expected volume of myShere2 is 452.376 inches cubed. The output volume is ${mySphere2.getVolume()}.`);
-console.log(`The expected volume of myShere3 is 804.224 m cubed. The output volume is ${mySphere3.getVolume()}.`);
+console.log(`The expected area of myShere1 is 201.056 units squared. The output area is ${mySphere1.getArea()}.`);
+console.log(`The expected area of myShere2 is 452.376 inches squared. The output area is ${mySphere2.getArea()}.`);
+console.log(`The expected area of myShere3 is 804.224 cm squared. The output area is ${mySphere3.getArea()}.`);
 console.log("\n");
 
 // --------------------5) Create a function that takes in an array and returns an array of the accumulating sum. An empty array should return an empty array.
